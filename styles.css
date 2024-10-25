@@ -1,9 +1,13 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+.content {
+  width: 900px;
+  margin: 0px auto 0px auto;
+}
 
 img {
   width: 90px;
   height: 50px;
-  margin: 10px;
 }
 
 ul {
@@ -14,16 +18,32 @@ ul {
   gap: 16px;
   font-size: 18px;
   color: #e5e7eb;
-  margin: 10px;
 }
 
 .header {
-  flex: 1;
   display: flex;
-  align-items: center;
   justify-content: space-between;
-  flex-direction: row;
-  gap: 500px;
-  font-family: roboto;
+  align-items: center;
+  font-family: Roboto, sans-serif;
   background-color: #1f2937;
+  gap: 5px;
+}
+
+.section1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.section1-left,
+.s1-left,
+.header-sign {
+  display: flex;
+  flex-direction: column;
+}
+
+.section1-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
