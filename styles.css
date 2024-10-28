@@ -33,11 +33,11 @@ ul {
   display: flex;
   justify-content: center;
   gap: 40px;
-  padding: 0 15rem;
   font-family: Roboto, sans-serif;
   background-color: #1f2937;
   color: #f9faf8;
   height: 300px;
+  padding: 100px 200px;
 }
 
 .section1-left {
@@ -128,4 +128,32 @@ h1 {
   margin-right: 50px;
   margin-top: 200px;
   font-family: Roboto, sans-serif;
+}
+
+.section4 {
+  padding: 100px 200px;
+}
+
+.cta2 {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 100px;
+  background-color: #3882f6;
+  border-radius: 10px;
+}
+
+.cta-box h4 {
+  color: #f9faf8;
+}
+
+.cta-box p {
+  color: #e5e7eb;
+}
+
+.invert {
+  background-color: #3882f6;
+  padding: 10px 30px;
+  color: #f9faf8;
+  border: 2px solid #f9faf8;
+  border-radius: 10px;
 }
