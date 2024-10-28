@@ -101,3 +101,31 @@ h1 {
   width: 100px;
   height: 100px;
 }
+
+.section3 {
+  background-color: #e5e7eb;
+  padding: 150px 200px;
+}
+
+.quote {
+  display: flex;
+  flex-direction: center;
+  align-content: center;
+  gap: 10px;
+}
+
+.quote h3 {
+  color: #1f2937;
+  font-style: italic;
+  font-weight: lighter;
+  font-size: 32px;
+  font-family: Roboto, sans-serif;
+}
+
+.quote p {
+  align-self: end;
+  font-weight: bold;
+  margin-right: 50px;
+  margin-top: 200px;
+  font-family: Roboto, sans-serif;
+}
